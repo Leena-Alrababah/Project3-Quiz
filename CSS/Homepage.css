@@ -11,8 +11,13 @@
   padding-top: 30px;
 }
 
-.welcome h1 {
-  font-size: 80px;
+.welcome h2 {
+  font-size: 50px;
+}
+
+.welcome h2:hover {
+  color: #ff7900;
+  
 }
 
 .first-paragraph-left h3 {
@@ -82,7 +87,7 @@
 }
 
 .btn {
-  /* grid-column: 1/5; */
+  grid-column: 1/5;
   display: grid;
   justify-content: center;
   text-align: center;

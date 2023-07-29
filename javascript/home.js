@@ -17,7 +17,7 @@ if (JSON.parse(localStorage.getItem("user"))[3]) {
   signup.style.display = "none";
   logout.style.display = "block";
   welcome.style.display = "block";
-  welcome.innerText = `Welcome ${JSON.parse(localStorage.getItem("user"))[0]}`;
+  welcome.innerText = `"Welcome ${JSON.parse(localStorage.getItem("user"))[0]}"`;
 
   if (arr[2] === "0") {
     btn_start_home.onclick = () => {
