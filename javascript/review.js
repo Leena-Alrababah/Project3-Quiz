@@ -13,7 +13,7 @@ x.onload = function () {
   let gg;
   let arr = localStorage.getItem("user_answer");
   gg = JSON.parse(arr);
-const first = gg.shift();
+  const first = gg.shift();
   for (let i = 0; i < json.length; i++) {
     const rivewHeader = document.createElement("div");
     rivewHeader.classList = "rivew-header";
